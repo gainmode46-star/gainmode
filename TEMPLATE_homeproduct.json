@@ -1,0 +1,146 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "SPORTS NUTRITION",
+      "slug": "sports-nutrition",
+      "subcategories": [
+        {
+          "name": "Proteins",
+          "slug": "proteins",
+          "items": [
+            "Whey Proteins",
+            "Whey Protein Isolate",
+            "Plant Proteins",
+            "Casein Proteins"
+          ]
+        },
+        {
+          "name": "Pre/Post Workout",
+          "slug": "pre-post-workout",
+          "items": [
+            "Pre-Workout",
+            "BCAA",
+            "Creatine",
+            "Post-Workout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "VITAMINS & SUPPLEMENTS",
+      "slug": "vitamins-supplements",
+      "subcategories": [
+        {
+          "name": "Multivitamins",
+          "slug": "multivitamins",
+          "items": [
+            "Men's Multivitamins",
+            "Women's Multivitamins",
+            "Kids Multivitamins"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Whey Protein",
+      "image": "https://example.com/whey-protein.jpg",
+      "images": [
+        "https://example.com/whey-protein-1.jpg",
+        "https://example.com/whey-protein-2.jpg"
+      ],
+      "price": 3999,
+      "originalPrice": 4999,
+      "onSale": true,
+      "category": "SPORTS NUTRITION",
+      "categorySlug": "sports-nutrition",
+      "subcategory": "Proteins",
+      "subcategorySlug": "proteins",
+      "brand": "O2 Nutrition",
+      "rating": 4.8,
+      "reviews": 234,
+      "featured": true,
+      "trending": true,
+      "description": "High-quality whey protein with 25g protein per serving. Perfect for muscle building and recovery.",
+      "ingredients": [
+        "Whey Protein Concentrate",
+        "Natural Flavors",
+        "Lecithin",
+        "Stevia"
+      ],
+      "nutritionInfo": {
+        "servingSize": "30g",
+        "servingsPerContainer": 33,
+        "protein": "25g",
+        "carbohydrates": "3g",
+        "fat": "1g",
+        "calories": 120
+      },
+      "variants": [
+        {
+          "flavor": "Chocolate",
+          "weight": "1kg",
+          "price": 3999
+        },
+        {
+          "flavor": "Vanilla",
+          "weight": "1kg", 
+          "price": 3999
+        }
+      ],
+      "certifications": [
+        "GMP Certified",
+        "Third-Party Tested"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "BCAA Energy Formula",
+      "image": "https://example.com/bcaa.jpg",
+      "price": 2499,
+      "category": "SPORTS NUTRITION",
+      "categorySlug": "sports-nutrition",
+      "subcategory": "Pre/Post Workout",
+      "subcategorySlug": "pre-post-workout",
+      "brand": "O2 Nutrition",
+      "rating": 4.5,
+      "reviews": 156,
+      "featured": false,
+      "trending": true,
+      "description": "Essential amino acids with 2:1:1 ratio for muscle recovery and energy.",
+      "ingredients": [
+        "L-Leucine",
+        "L-Isoleucine",
+        "L-Valine",
+        "Natural Caffeine"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Men's Daily Multivitamin",
+      "image": "https://example.com/multivitamin.jpg",
+      "price": 1999,
+      "category": "VITAMINS & SUPPLEMENTS",
+      "categorySlug": "vitamins-supplements",
+      "subcategory": "Multivitamins",
+      "subcategorySlug": "multivitamins",
+      "brand": "VitaMax",
+      "rating": 4.3,
+      "reviews": 89,
+      "featured": true,
+      "trending": false,
+      "description": "Complete daily multivitamin for men's health with essential vitamins and minerals.",
+      "ingredients": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D3",
+        "B-Complex",
+        "Zinc"
+      ]
+    }
+  ]
+}
